@@ -5,8 +5,37 @@
 	<meta charset="UTF-8">
 	<title>台灣旅遊簡介</title>
 	<style type="text/css">
-		.r_corner2 {margin-left: 100px;float: left;border-radius: 20px;width:169px;height:120px;}
-/*		.r_corner3 {border-radius:300px; width:30px;height:30px; }*/
+		.r_corner2 {
+		  margin-left: 100px;
+		  float: left;
+		  border-radius: 20px;
+		  width:169px;
+		  height:120px;
+		}
+		.container {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		}
+		.group {
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: space-between;
+		  width: 80%;
+		  margin-top: 50px;
+		}
+
+		.image img {
+		  max-width: 100%;
+		  height: auto;
+		}
+		.my_button {
+		  background-color: #ADD8E6;
+		  color: white;
+		  border-radius: 20px;
+		  cursor: pointer;
+		}
+
 	</style>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -38,36 +67,51 @@
 			</div>
 		</div>
 		<div id="contents">
-			<div id="adbox">
-				<div>
-					<h1>建構中...敬請期待...</h1>
-				</div>
+			<div class="container">
+			  	<div class="group">
+			    	<div class="text">
+			      		<h2>臺灣北部</h2>
+			      		<p>包括臺北市、新北市、基隆市、宜蘭縣、桃園市、新竹縣及新竹市等7個縣市。為臺灣人口最多的地區，同時也是臺灣雨量最多的地區。
+			      		<button class="my_button"><a href="north.html">Click me!</a></button>
+			      		</p>
+			    	</div>
+			    	<div class="image">
+			      		<img src="images/north.png">
+			    	</div>
+			  	</div>
+			  	<div class="group">
+			    	<div class="image">
+			      		<img src="images/central.png">
+			    	</div>
+			    	<div class="text">
+			      		<h2>臺灣中部</h2>
+			      		<p>包括苗栗縣、臺中市、彰化縣、南投縣及雲林縣等5個縣市，位於臺灣心臟地帶，常年氣候舒適，尤其是臺中市，四季氣溫宜人，非常適合旅行。<button class="my_button"><a href="central.html">Click me!</a></button>
+			      		</p>
+			    	</div>
+			  	</div>
+			  	<div class="group">
+			    	<div class="text">
+			      		<h2>臺灣南部</h2>
+			      		<p>包括嘉義縣、嘉義市、臺南市、高雄市、屏東縣，氣候四季如夏，地形組成居多為平原地形，也因此有臺灣穀倉之稱。<button class="my_button"><a href="south.html">Click me!</a></button>
+			      		</p>
+			    	</div>
+			    	<div class="image">
+			      		<img src="images/south.png">
+			    	</div>
+			  	</div>
+			  	<div class="group">
+			    	<div class="image">
+			     		<img src="images/east.png">
+			    	</div>
+			    	<div class="text">
+			      		<h2>臺灣東部</h2>
+			      		<p>臺灣東部，或稱東臺灣，是臺灣東半邊區域，西側以雪山山脈、中央山脈與台灣西部相隔，東側臨太平洋，佔臺灣島總面積約三分之一，由北而南分別是花蓮縣、臺東縣。<button class="my_button"><a href="east.html">Click me!</a></button>
+			      		</p>
+			    	</div>
+			  	</div>
 			</div>
-		</div>
-		<div id="footer">
-			<div class="background">
-				<div class="body">
-					<div class="section">
-						<h3>聯絡資訊</h3>
-						<ul>
-							<li>
-								<span>地址</span><strong>:</strong>
-								<p>
-									台中市沙鹿區臺灣大道七段200號
-								</p>
-							</li>
-							<li>
-								<span>電話</span><strong>:</strong>
-								<p>
-									(04)2632-8001
-								</p>
-							</li>
-						</ul>
-					</div>
-					<p id="footnote">
-						網頁製作: 資科四B 鄭巧盈 周鈺芳 蔡宜瑾 謝郁萱
-					</p>
-				</div>
+			<div style="background: #90ee90;color: black;"colspan="2" align="center">
+				<h3>靜宜大學 資料科學季大數據分析與應用學系 周鈺芳 鄭巧盈 蔡宜瑾 謝郁萱 製作</h3>
 			</div>
 		</div>
 	</div>

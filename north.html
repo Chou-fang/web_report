@@ -5,8 +5,42 @@
 	<meta charset="UTF-8">
 	<title>台灣旅遊簡介</title>
 	<style type="text/css">
-		.r_corner2 {margin-left: 100px;float: left;border-radius: 20px;width:169px;height:120px;}
-/*		.r_corner3 {border-radius:300px; width:30px;height:30px; }*/
+		.r_corner2 {
+		  margin-left: 100px;
+		  float: left;
+		  border-radius: 20px;
+		  width:169px;
+		  height:120px;
+		}
+		.container {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		}
+		.group {
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: space-between;
+		  width: 100%;
+		  margin-top: 50px;
+		}
+		.group_img {
+		  display: flex;
+		  justify-content: space-between;
+		  margin-bottom: 50px;
+		}
+		.image img {
+		  max-width: 100%;
+		  height: auto;
+		}
+		.my_button {
+		  background-color: #ADD8E6;
+		  color: white;
+		  border-radius: 20px;
+		  cursor: pointer;
+		  font-size: 20px;
+		  border: none;
+		}
 	</style>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -33,42 +67,205 @@
 						<li>
 							<a href="east.html">東部</a>
 						</li>
-
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div id="contents">
-			<div id="adbox">
-				<div>
-					<h1>建構中...敬請期待...</h1>
-				</div>
+			<div class="container">
+		    	<div class="text">
+		      		<h2>台北市立動物園</h2>
+		      		<ul>
+		      			<li>
+		      				地址:
+		      				<br>臺北市文山區新光路二段30號
+		      			</li>
+		      			<li>
+		      				票價:
+		      				<br>全票:$60 
+		      				<br>學生票:$30 
+		      				<br>團體票7折
+		      			</li>
+		      			<li>
+		      				開放時間:
+		      				<br>9:00~17:00(16:00最後入園)
+		      				<br>動物展示:9:00~16:30
+		      			</li>
+			      		<li>
+			      			簡介: 
+			      			<br>臺北市立動物園創立於1914年，當時位於圓山，舊稱為「圓山動物園」。後來因為無法擴建，在1986年時搬到文山木柵區，成為全台面積最大的動物園，也就是大家熟悉的「木柵動物園」。結合自然保育、教育研究及寓教於樂，也是學校遠足、戶外教學的熱門景點喔！除了多樣化的動物探索場域，園區還有固定的企鵝餵食秀、無尾熊解說及定期更換主題的動物保母講古活動，非常適合大小朋友一起來認識動物！
+			      		</li>
+			      	</ul>
+		    	</div>
+			    <div class="group">
+			    	<div class="image">
+			      		<img src="images/north_zoo_1.jpg">
+			    	</div>
+			    	<div class="image">
+			    		<img src="images/north_zoo_2.jpg">
+			  		</div>
+			  	</div>
+			  	<div class="group">
+			    	<div class="text">
+		      			<h2>黃金博物館</h2>
+		      			<ul>
+			      			<li>
+			      				地址:
+			      				<br>新北市瑞芳區金光路8號
+			      			</li>
+			      			<li>
+			      				票價:
+			      				<br>全票:$80
+			      			</li>
+			      			<ol>
+			      				<li>
+			      					新北市之市民
+			      				</li>
+			      				<li>
+			      					65歲以上年長者（限本國籍）
+			      				</li>
+			      				<li>
+			      					未滿12歲之孩童
+			      				</li>
+			      				<li>
+			      					國內各級學校之學生
+			      				</li>
+			      				<li>
+			      					身心障礙者及其陪伴者
+			      				</li>
+			      				<li>
+			      					55歲以上之原住民
+			      				</li>
+			      				<li>
+			      					持有低收入戶證明
+			      				</li>
+			      				<li>
+			      					持有志願服務榮譽卡之志工
+			      				</li>
+			      				<li>
+			      					中華民國博物館學會之會員
+			      				</li>
+			      				持以上證明者免費入園
+			      			</ol>
+			      			<li>
+			      				營業時間:
+			      				<br>週一~周五9:30~17:00 
+			      				<br>週六、日:9:30~18:00
+			      			</li>
+			      		</ul>		    	
+			      	</div>
+			      	<div class="image">
+			      		<img src="images/north_gold.jpg">
+			    	</div>
+			    </div>
+		      		<ul>
+		      			<li>
+			      			簡介: 
+			      			<br>臺北市立動物園創立於1914年，當時位於圓山，舊稱為「圓山動物園」。後來因為無法擴建，在1986年時搬到文山木柵區，成為全台面積最大的動物園，也就是大家熟悉的「木柵動物園」。結合自然保育、教育研究及寓教於樂，也是學校遠足、戶外教學的熱門景點喔！除了多樣化的動物探索場域，園區還有固定的企鵝餵食秀、無尾熊解說及定期更換主題的動物保母講古活動，非常適合大小朋友一起來認識動物！
+			      		</li>
+			      	</ul>
+			    	<div class="text">
+			      		<h2>Xpark</h2>
+			      		<ul>
+			      			<li>
+			      				地址:
+			      				<br>桃園市中壢區春德路105號
+			      			</li>
+			      			<li>
+			      				票價:
+			      				<br>全票:$550 
+			      				<br>學生票:$400 
+			      				<br>孩童票:$250 
+			      				<br>博愛票$250
+			      			</li>
+			      			<li>
+			      				開放時間:
+			      				<br>周日~周五10:00~18:00 
+			      				<br>週六:10:00~20:00
+			      			</li>
+				      		<li>
+				      			簡介: 
+				      			<br>位於中壢青埔的「Xpark水生公園」，是日本八景島團隊打造的日系都會型水族館，高鐵桃園站、機場捷運都可直達，交通上非常方便，採線上購票，掃描QR code就可直接進場，4500坪13個展區讓你有全新的體驗感。
+				      		</li>
+			      		</ul>
+			    	</div>
+			    	<div class="group_img">
+			    		<div class="image">
+				      		<img src="images/north_xpark_1.jpg">
+				      	</div>
+				      	<div class="image">
+				      		<img src="images/north_xpark_2.jpg">
+				      	</div>
+				    </div>
+			    <div class="text">
+		      		<h2>一百種味道</h2>
+		      		<ul>
+		      			<li>
+		      				地址:
+		      				<br>總店: 300新竹市北區勝利路183號
+		      				<br>三民店: 300新竹市東區三民路35號
+		      			</li>
+		      			<li>
+		      				開放時間:
+		      				<br>總店:11:00~18:30每周一公休
+		      				<br>三民店:12:00~18:30每周一公休
+		      			</li>
+		      			<li>
+		      				備註:
+		      				<br>總店:全外帶 
+		      				<br>三民店:外帶&預約制內用
+		      			</li>
+			      		<li>
+			      			簡介: 
+			      			<br>店內用顯微鏡選擇全台的美麗食材，再用手做、新鮮的熱情喚醒它,放進烤箱 冒出香味，一些簡單的堅持，串成一幅在地的美味地圖。
+			      		</li>
+			      	</ul>
+		    	</div>
+			    <div class="group_img">
+			    	<div class="image">
+			      		<img src="images/north_dessert_1.png">
+			    	</div>
+			    	<div class="image">
+			    		<img src="images/north_dessert_2.jpg">
+			  		</div>
+			  	</div>
+			  	<div class="text">
+		      		<h2>清水地熱公園</h2>
+		      		<ul>
+		      			<li>
+		      				地址:
+		      				<br>宜蘭縣大同鄉三星路八段501巷150號
+		      			</li>
+		      			<li>
+		      				開放時間:
+		      				<br>9:00~17:00
+		      			</li>
+			      		<li>
+			      			簡介: 
+			      			<br>免門票的清水地熱除了煮溫泉蛋、泡腳，還能泡暖湯啦！與太平山鳩之澤溫泉一樣，都是碳酸氫鈉泉，泉水呈現寶藍色，在檜木池裡享用熱呼呼的溫泉，還能同時欣賞山林。能自己DIY用竹簍主食玉米、溫泉蛋…..，十分好玩!
+			      		</li>
+			      		<li>
+			      			販賣之食物價目表:
+			      		</li>
+			      	</ul>
+		    	</div>
+			    <div class="group_img">
+			    	<div class="image">
+			      		<img src="images/north_hot_1.jpg">
+			    	</div>
+			    	<div class="image">
+			    		<img src="images/north_hot_2.jpg">
+			  		</div>
+			  	</div>
+			  	<div>
+			  		<button class="my_button"><a href="index.html">回首頁</a></button>
+			  		<button class="my_button"><a href="central.html">去中部</a></button>
+			  		<button class="my_button"><a href="south.html">去南部</a></button>
+			  		<button class="my_button"><a href="east.html">去東部</a></button>
+			  	</div>
 			</div>
-		</div>
-		<div id="footer">
-			<div class="background">
-				<div class="body">
-					<div class="section">
-						<h3>聯絡資訊</h3>
-						<ul>
-							<li>
-								<span>地址</span><strong>:</strong>
-								<p>
-									台中市沙鹿區臺灣大道七段200號
-								</p>
-							</li>
-							<li>
-								<span>電話</span><strong>:</strong>
-								<p>
-									(04)2632-8001
-								</p>
-							</li>
-						</ul>
-					</div>
-					<p id="footnote">
-						網頁製作: 資科四B 鄭巧盈 周鈺芳 蔡宜瑾 謝郁萱
-					</p>
-				</div>
+			<div style="background: #90ee90;color: black;"colspan="2" align="center">
+				<h3>靜宜大學 資料科學季大數據分析與應用學系 周鈺芳 鄭巧盈 蔡宜瑾 謝郁萱 製作</h3>
 			</div>
 		</div>
 	</div>

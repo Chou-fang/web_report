@@ -5,8 +5,41 @@
 	<meta charset="UTF-8">
 	<title>台灣旅遊簡介</title>
 	<style type="text/css">
-		.r_corner2 {margin-left: 100px;float: left;border-radius: 20px;width:169px;height:120px;}
-/*		.r_corner3 {border-radius:300px; width:30px;height:30px; }*/
+		.r_corner2 {
+		  margin-left: 100px;
+		  float: left;
+		  border-radius: 20px;
+		  width:169px;
+		  height:120px;
+		}
+		.container {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		}
+		.group {
+		  display: flex;
+		  flex-direction: row;
+		  justify-content: space-between;
+		  width: 100%;
+		  margin-top: 50px;
+		}
+		.group_1 {
+		  display: flex;
+		  justify-content: space-between;
+		}
+		.image img {
+		  max-width: 100%;
+		  height: auto;
+		}
+		.my_button {
+		  background-color: #ADD8E6;
+		  color: white;
+		  border-radius: 20px;
+		  cursor: pointer;
+		  font-size: 20px;
+		  border: none;
+		}
 	</style>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -38,36 +71,148 @@
 			</div>
 		</div>
 		<div id="contents">
-			<div id="adbox">
-				<div>
-					<h1>建構中...敬請期待...</h1>
+			<div class="container">
+				<div class="group_1">
+			    	<div class="text">
+			      		<h2>太平雲梯</h2>
+			      		<ul>
+			      			<li>
+			      				地址:
+			      				<br>嘉義縣梅山鄉太平村下坑仔5號
+			      			</li>
+			      			<li>
+			      				票價:
+			      				<br>票券預約方式：網路購票、現場售票全票:100元 
+			      				<br>優待票:80元 
+			      				<br>半票:50元
+			      				<br>回饋票:30元
+			      			</li>
+			      			<li>
+			      				開放時間:
+			      				<br>平日 09:00 ~ 16:30
+			      				<br>假日 09:00 ~ 17:30
+			      				<br>週三不營運
+			      				<br>星光時間：每週六晚上18:00至20:00
+			      			</li>
+				      	</ul>
+			    	</div>
+			    	<div class="image">
+			      		<img src="images/south_ladder.jpg">
+			    	</div>
+			  	</div>
+			  		<ul>
+			  			<li>
+			      			簡介: 
+			      			<br>太平雲梯長度281公尺、海拔約1000公尺，吊橋從梅山太平村望風台橫跨三原彩虹瀑布通往龜山，使遊客能俯瞰到嘉南平原的美景同時也能觀賞到特有的雲海。來源:交通部觀光局阿里山國家風景區管理處
+				      	</li>
+				    </ul>
+			  	<div class="group">
+			    	<div class="text">
+		      			<h2>河童町</h2>
+		      			<ul>
+			      			<li>
+			      				地址:
+			      				<br>台南市安平區安北路207號
+			      			</li>
+			      			<li>
+			      				營業時間:
+			      				<br>平日11:00~19:00
+			      				<br>假日10:00~20:00 
+			      			</li>
+			      			<li>
+				      			簡介: 
+				      			<br>這是一家新的打卡地點，主打昭和風日式商店、
+				      			<br>車站讓大家感受到滿滿的日式風，在這裡可以喝
+				      			<br>到一些日本飲品，也可以吃到他們的店內美食"蝦餅"。
+				      		</li>
+			      		</ul>		    	
+			      	</div>
+			      	<div class="image">
+			      		<img src="images/south_kappa.jpg">
+			    	</div>
+			    </div>
+			    <div class="group">
+			    	<div class="text">
+			      		<h2>西子灣</h2>
+			      		<ul>
+			      			<li>
+			      				地址:
+			      				<br>高雄市鼓山區
+			      			</li>
+				      		<li>
+				      			簡介: 
+				      			<br>西子灣以夕陽美景及天然礁石聞名，區內包括了西子灣海水浴場
+				      			<br>、海濱公園、打狗英國領事館....等景點；可觀海景、遠眺高雄港
+				      			<br>;海水浴場極富熱帶氣息、南國風情，每當夜幕低垂，晚霞的照耀
+				      			<br>，漁船燈火閃爍其間，呈現海天一色美景。西子灣的西子夕照為
+				      			<br>高雄八大勝景之一，每到日落時分，沿著海岸護堤的石砌欄杆，成為欣賞落日餘暉的最佳位置。
+				      		</li>
+			      		</ul>
+			    	</div>
+			      	<div class="image">
+			      		<img src="images/south_sea.jpg">
+			      	</div>
 				</div>
+				<div class="group">
+			    	<div class="text">
+			      		<h2>駁二特區</h2>
+			      		<ul>
+			      			<li>
+			      				地址:
+			      				<br>高雄市鹽埕區大勇路1號
+			      			</li>
+				      		<li>
+				      			簡介: 
+				      			<br>駁二特區位於碼頭旁的倉庫群藝術特區，出出入入的除了車輛還
+				      			<br>有船舶，湊熱鬧的不只是人群還有海風，開闊的海天視野一如遼
+				      			<br>闊無垠的思緒。在海陸交界的衝突裡，寬廣的是耀眼的未來。
+				      			<br>
+								負責營運管理的公部門與天馬行空的藝術家，雖然各自擁抱夢想
+								<br>，但在這個場域裡相互協調步伐，修整方向，一起邁向共同的理想。在行政與藝術的衝突間，磨合成緊密的夥伴，建構駁二在每個人心中的形象。
+				      		</li>
+			      		</ul>
+			    	</div>
+			      	<div class="image">
+			      		<img src="images/south_art.jpg">
+			      	</div>
+				</div>
+				<div class="group">
+			    	<div class="text">
+			      		<h2>墾丁鹿境梅花鹿生態園區</h2>
+			      		<ul>
+			      			<li>
+			      				地址:
+			      				<br>高雄市鹽埕區大勇路1號
+			      			</li>
+			      			<li>
+			      				票價:
+			      				<br>全票:200元
+			      				<br>團體票:180元
+			      				<br>博愛票:50元
+			      			</li>
+				      		<li>
+				      			簡介: 
+				      			<br>南臺灣有名的梅花鹿園區有三個，分別是鹿境、阿信巧克力農
+				      			<br>場、墾草趣生態園區，我們先來到有台版小奈良之稱的「鹿境
+				      			<br>梅花鹿生態園區」，鹿境就位於屏東恆春屏鵝公路上，距離恆
+				      			<br>春古城商圈、小杜包子都不會太遠，約莫5分鐘的車程，是來
+				      			<br>墾丁旅遊必排的景點之一!不僅可以近距離跟小鹿互動餵食，還可以跟超萌的小鹿自拍~~保證會拍到不想回家!園區乾淨又寬敞，還有不少網美牆、裝置藝術讓大家可以拍美照，也很適合帶小朋友來玩耍，是個很適合親子同遊的好地方! 
+				      		</li>
+			      		</ul>
+			    	</div>
+			      	<div class="image">
+			      		<img src="images/south_deer.jpg">
+			      	</div>
+				</div>
+			  	<div>
+			  		<button class="my_button"><a href="index.html">回首頁</a></button>
+			  		<button class="my_button"><a href="north.html">去北部</a></button>
+			  		<button class="my_button"><a href="central.html">去中部</a></button>
+			  		<button class="my_button"><a href="east.html">去東部</a></button>
+			  	</div>
 			</div>
-		</div>
-		<div id="footer">
-			<div class="background">
-				<div class="body">
-					<div class="section">
-						<h3>聯絡資訊</h3>
-						<ul>
-							<li>
-								<span>地址</span><strong>:</strong>
-								<p>
-									台中市沙鹿區臺灣大道七段200號
-								</p>
-							</li>
-							<li>
-								<span>電話</span><strong>:</strong>
-								<p>
-									(04)2632-8001
-								</p>
-							</li>
-						</ul>
-					</div>
-					<p id="footnote">
-						網頁製作: 資科四B 鄭巧盈 周鈺芳 蔡宜瑾 謝郁萱
-					</p>
-				</div>
+			<div style="background: #90ee90;color: black;"colspan="2" align="center">
+				<h3>靜宜大學 資料科學季大數據分析與應用學系 周鈺芳 鄭巧盈 蔡宜瑾 謝郁萱 製作</h3>
 			</div>
 		</div>
 	</div>
